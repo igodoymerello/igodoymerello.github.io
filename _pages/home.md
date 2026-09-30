@@ -17,7 +17,7 @@ permalink: /
 </div>
 
 
-<!-- Theoretical physics is a branch of physics that focuses on the development of mathematical models and theories to understand and explain natural phenomena.
+Theoretical physics is a branch of physics that focuses on the development of mathematical models and theories to understand and explain natural phenomena.
 It plays a crucial role in our understanding of the fundamental laws of the universe and the fundamental particles that make up all matter.
 Research in theoretical physics helps us to make predictions about how the universe works and to test these predictions through experiments.
 
@@ -40,7 +40,6 @@ Research in theoretical physics helps us to make predictions about how the unive
 <p style="margin: var(--space-4) 0 0;"><a href="{{ '/publications' | relative_url }}">All publications &rarr;</a></p>
 </div>
 {% endif %}
--->
 
 ## About me
 
