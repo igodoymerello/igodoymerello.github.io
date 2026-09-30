@@ -42,7 +42,11 @@ Research in theoretical physics helps us to make predictions about how the unive
 
 ## About me
 
-I am a physicist working in the field of quantum mechanics and quantum electrodynamics.
-I received my undergraduate degree in physics from the Massachusetts Institute of Technology (MIT) in 1939 and went on to earn my PhD from Princeton University in 1942.
-After completing my doctoral studies, I worked on the Manhattan Project, where I helped develop the first atomic bombs.
-After the war, I returned to academia, holding teaching and research positions at Cornell and now at the California Institute of Technology.
+#I am a physicist working in the field of quantum mechanics and quantum electrodynamics.
+#I received my undergraduate degree in physics from the Massachusetts Institute of Technology (MIT) in 1939 and went on to earn my PhD from Princeton University in 1942.
+#After completing my doctoral studies, I worked on the Manhattan Project, where I helped develop the first atomic bombs.
+#After the war, I returned to academia, holding teaching and research positions at Cornell and now at the California Institute of Technology.
+
+I am an economist working in the field of energy and mineral economics, academic research, and public policy.
+I received my undergraduate degree in Economics from the University of Chile, complemented by a Minor in Macroeconomics and Finance, and went on to earn my M.Sc. in Economic Analysis from the same institution.
+Professionally and academically, I focus on bridging rigorous data analysis with strategic public policy. Recently, I completed the Managing Mining, Oil and Gas for National Development program at the University of Oxford as a full scholarship recipient awarded by the Natural Resources Governance Institute (NRGI).
