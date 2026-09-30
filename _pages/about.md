@@ -18,7 +18,7 @@ permalink: /about/
 {% if site.links.google_scholar and site.links.google_scholar != "" %}<a href="{{ site.links.google_scholar }}" class="icon-link" title="Google Scholar" aria-label="Google Scholar" target="_blank" rel="noopener noreferrer">{% include icon.html name="google-scholar" %}</a>{% endif %}
 {% if site.links.github and site.links.github != "" %}<a href="{{ site.links.github }}" class="icon-link" title="GitHub" aria-label="GitHub" target="_blank" rel="noopener noreferrer">{% include icon.html name="github" %}</a>{% endif %}
 {% if site.links.researchgate and site.links.researchgate != "" %}<a href="{{ site.links.researchgate }}" class="icon-link" title="ResearchGate" aria-label="ResearchGate" target="_blank" rel="noopener noreferrer">{% include icon.html name="researchgate" %}</a>{% endif %}
-{% if site.links.linkedin and site.links.linkedin != "" %}<a href="{{ site.links.linkedin }}" class="icon-link" title="LinkedIn" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">{{ include icon.html name="linkedin" %}}</a>{% endif %}
+{% if site.links.linkedin and site.links.linkedin != "" %}<a href="{{ site.links.linkedin }}" class="icon-link" title="LinkedIn" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">{% include icon.html name="linkedin" %}</a>{% endif %}
 </div>
 {% if site.data.pi[0].education %}
 <ul style="margin-top: var(--space-4);">
