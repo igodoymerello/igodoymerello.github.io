@@ -16,7 +16,7 @@ permalink: /about/
 Economic Researcher &bull; Espacio Público
 </p>
 <p style="font-size: 0.88rem; color: var(--text-secondary); margin: 0 0 1rem 0; line-height: 1.4;">
-Natural Resources &bull; Energy Transition &bull; Mining Value Chains &bull; Applied Econometrics
+Applied Economics &bull; Econometrics &bull; Mineral Economics &bull; Natural Resources &bull; Energy Transition &bull; Mining Value Chains
 </p>
 <div class="pi-links">
 {% if site.email %}<a href="mailto:{{ site.email }}" class="icon-link" title="Email" aria-label="Email">{% include icon.html name="envelope" %}</a>{% endif %}
@@ -34,11 +34,11 @@ Natural Resources &bull; Energy Transition &bull; Mining Value Chains &bull; App
 <!-- Bio -->
 <div class="section-card" style="margin-top: var(--space-4);">
 <h3 style="margin-top: 0; margin-bottom: 1rem;">Bio</h3>
-<p style="line-height: 1.7; color: var(--text-primary); margin-bottom: 1.2rem;">
-I am an economist specializing in natural resources, energy transition economics, and industrial policy in Latin America. I hold a B.Sc. in Economics (with a Minor in Macrofinance and Banking) and an M.Sc. in Applied Economics from the School of Economics and Business at the University of Chile. My research focuses on empirical and econometric analysis applied to mineral value chains—particularly copper and critical minerals—and low-emission energy technologies, combining quantitative modeling, spatial econometrics, and policy evaluation.
+<p style="line-height: 1.7; color: var(--text-primary); margin-bottom: 1.2rem; max-width: 100% !important; width: 100%;">
+I am an economist specializing in natural resources, energy transition economics, and industrial policy in Latin America. I hold a B.Sc. in Economics (with a Minor in Macrofinance and Banking) and an M.Sc. in Applied Economics from the School of Economics and Business (FEN) at the University of Chile. My research focuses on empirical and econometric analysis applied to mineral value chains—particularly copper and critical minerals—but also to political violence, combining quantitative modeling, spatial econometrics, and policy evaluation.
 </p>
-<p style="line-height: 1.7; color: var(--text-primary); margin: 0;">
-Currently, I work as an Economic Researcher at the think tank Espacio Público in the Sustainability & Economic Growth area, where I lead and co-author policy papers on mining exploration dynamics and downstream value addition from copper. Concurrently, I serve as a Research Assistant on Fondecyt Project No. 1241625 analyzing institutional violence and political representation. Previously, I served as an Economic Consultant and Intern at the Natural Resources Division of the United Nations ECLAC, conducting technical research on regional foreign direct investment in critical raw materials and low-emission hydrogen pathways.
+<p style="line-height: 1.7; color: var(--text-primary); margin: 0; max-width: 100% !important; width: 100%;">
+Currently, I work as an Economic Researcher at the think tank Espacio Público in the Sustainability & Economic Growth area, where I lead and co-author policy papers on mining issues, from exploration dynamics to value-addition. Concurrently, I serve as a Research Assistant on Fondecyt Project No. 1241625 analyzing institutional violence and political representation. Previously, I served as an Economic Consultant and Intern at the Natural Resources Division of the United Nations ECLAC, conducting technical research on regional foreign direct investment (FDI) in critical minerals, and low-emission hydrogen pathways for the Latin America and the Caribbean (LAC) region.
 </p>
 </div>
 
@@ -108,7 +108,7 @@ Minor in Macrofinance and Banking
 <div class="section-card" style="margin-top: var(--space-4);">
 <h3 style="margin-top: 0; margin-bottom: 1.5rem;">Experience</h3>
 
-<div style="margin-bottom: 1.3rem;">
+<div>
 <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 0.5rem;">
 <h4 style="margin: 0; font-size: 1rem; color: var(--text-primary);">Economic Researcher &bull; Espacio Público</h4>
 <span style="font-size: 0.9rem; color: var(--text-secondary); font-weight: 500;">January 2026 &ndash; Present</span>
@@ -116,7 +116,9 @@ Minor in Macrofinance and Banking
 <p style="margin: 0.25rem 0 0 0; font-size: 0.88rem; color: var(--text-secondary);">Sustainability & Economic Growth area</p>
 </div>
 
-<div style="margin-bottom: 1.3rem;">
+<hr style="border: 0; border-top: 1px solid var(--border-color); margin: 1.2rem 0;">
+
+<div>
 <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 0.5rem;">
 <h4 style="margin: 0; font-size: 1rem; color: var(--text-primary);">Economic Research Assistant &bull; Fondecyt Project No. 1241625</h4>
 <span style="font-size: 0.9rem; color: var(--text-secondary); font-weight: 500;">December 2024 &ndash; Present</span>
@@ -126,7 +128,9 @@ Minor in Macrofinance and Banking
 </p>
 </div>
 
-<div style="margin-bottom: 1.3rem;">
+<hr style="border: 0; border-top: 1px solid var(--border-color); margin: 1.2rem 0;">
+
+<div>
 <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 0.5rem;">
 <h4 style="margin: 0; font-size: 1rem; color: var(--text-primary);">Economic Consultant &bull; United Nations ECLAC</h4>
 <span style="font-size: 0.9rem; color: var(--text-secondary); font-weight: 500;">January 2025 &ndash; January 2026</span>
@@ -136,7 +140,9 @@ Natural Resources Division (Energy Unit & Non-Renewable Resources Unit)
 </p>
 </div>
 
-<div style="margin-bottom: 1.3rem;">
+<hr style="border: 0; border-top: 1px solid var(--border-color); margin: 1.2rem 0;">
+
+<div>
 <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 0.5rem;">
 <h4 style="margin: 0; font-size: 1rem; color: var(--text-primary);">Economic Affairs Intern &bull; United Nations ECLAC</h4>
 <span style="font-size: 0.9rem; color: var(--text-secondary); font-weight: 500;">June &ndash; November 2024</span>
@@ -145,6 +151,8 @@ Natural Resources Division (Energy Unit & Non-Renewable Resources Unit)
 Natural Resources Division
 </p>
 </div>
+
+<hr style="border: 0; border-top: 1px solid var(--border-color); margin: 1.2rem 0;">
 
 <div>
 <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 0.5rem;">
