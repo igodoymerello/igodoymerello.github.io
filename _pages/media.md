@@ -13,11 +13,11 @@ Articles, op-eds, policy commentary, and informal writing on economic policy, en
   <ul style="list-style: none; padding-left: 0;">
     <li style="margin-bottom: var(--space-4); border-bottom: 1px solid var(--border-color); padding-bottom: var(--space-3);">
       <span style="font-size: 0.85rem; color: var(--text-secondary);">September 2026 &bull; El Mostrador</span><br>
-      <a href="https://www.elmostrador.cl" target="_blank" rel="noopener noreferrer" style="font-weight: 600; font-size: 1.05rem;">
+      <a href="https://www.elmostrador.cl/noticias/opinion/columnas/2026/09/28/mas-valor-desde-el-cobre/" target="_blank" rel="noopener noreferrer" style="font-weight: 600; font-size: 1.05rem;">
         Rutas para la agregación de valor desde el cobre en Chile
       </a>
       <p style="margin: 0.3rem 0 0 0; color: var(--text-secondary); font-size: 0.9rem;">
-        Opinion column addressing industrial policy, copper smelting, and downstream knowledge creation in the Chilean mining sector.
+        Opinion column addressing industrial policy for value-addition through knowledge creation in the Chilean mining sector.
       </p>
     </li>
   </ul>
