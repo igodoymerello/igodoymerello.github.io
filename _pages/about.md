@@ -6,13 +6,18 @@ permalink: /about/
 
 # About
 
-<!-- Header Card: Photo, Basic Info, Social Links -->
+<!-- Header Card: Photo, Quick Profile & Social Links -->
 <div class="section-card">
-<div class="pi-card">
-<img src="{{ site.photo | prepend: '/images/' | relative_url }}" class="pi-photo" alt="{{ site.name }}" width="160" height="160">
-<div>
-<h2 class="pi-name">{{ site.name }}</h2>
-<p style="font-style: italic; color: var(--text-secondary); margin-bottom: var(--space-2);">{{ site.title }}, {{ site.institution }}</p>
+<div class="pi-card" style="display: flex; gap: 2rem; align-items: center; flex-wrap: wrap;">
+<img src="{{ site.photo | prepend: '/images/' | relative_url }}" class="pi-photo" alt="{{ site.name }}" width="150" height="150" style="border-radius: 50%; object-fit: cover;">
+<div style="flex: 1; min-width: 260px;">
+<h2 class="pi-name" style="margin: 0; font-size: 1.6rem;">{{ site.name }}</h2>
+<p style="font-size: 1rem; color: var(--accent-base, #1a7a6d); font-weight: 600; margin: 0.2rem 0 0.5rem 0;">
+Economic Researcher &bull; Espacio Público
+</p>
+<p style="font-size: 0.88rem; color: var(--text-secondary); margin: 0 0 1rem 0; line-height: 1.4;">
+Natural Resources &bull; Energy Transition &bull; Mining Value Chains &bull; Applied Econometrics
+</p>
 <div class="pi-links">
 {% if site.email %}<a href="mailto:{{ site.email }}" class="icon-link" title="Email" aria-label="Email">{% include icon.html name="envelope" %}</a>{% endif %}
 {% if site.links.cv and site.links.cv != "" %}<a href="{{ site.links.cv | prepend: '/' | relative_url }}" class="icon-link" title="CV" aria-label="CV">{% include icon.html name="cv" %}</a>{% endif %}
@@ -26,11 +31,14 @@ permalink: /about/
 </div>
 </div>
 
-<!-- Short Bio -->
+<!-- Bio -->
 <div class="section-card" style="margin-top: var(--space-4);">
-<h3 style="margin-top: 0;">Bio</h3>
-<p style="line-height: 1.6; color: var(--text-primary); margin: 0;">
-Economist from the University of Chile, holding a Minor in Macrofinance and Banking and an M.Sc. in Applied Economics from the same institution. Currently working as an Economic Researcher at Espacio Público and serving as a Research Assistant. I have developed both analytical and practical thinking, guided by a strong commitment to economic discipline, social responsibility, and collaboration, with extensive experience in academic research, econometric methods, and public policy evaluation.
+<h3 style="margin-top: 0; margin-bottom: 1rem;">Bio</h3>
+<p style="line-height: 1.7; color: var(--text-primary); margin-bottom: 1.2rem;">
+I am an economist specializing in natural resources, energy transition economics, and industrial policy in Latin America. I hold a B.Sc. in Economics (with a Minor in Macrofinance and Banking) and an M.Sc. in Applied Economics from the School of Economics and Business at the University of Chile. My research focuses on empirical and econometric analysis applied to mineral value chains—particularly copper and critical minerals—and low-emission energy technologies, combining quantitative modeling, spatial econometrics, and policy evaluation.
+</p>
+<p style="line-height: 1.7; color: var(--text-primary); margin: 0;">
+Currently, I work as an Economic Researcher at the think tank Espacio Público in the Sustainability & Economic Growth area, where I lead and co-author policy papers on mining exploration dynamics and downstream value addition from copper. Concurrently, I serve as a Research Assistant on Fondecyt Project No. 1241625 analyzing institutional violence and political representation. Previously, I served as an Economic Consultant and Intern at the Natural Resources Division of the United Nations ECLAC, conducting technical research on regional foreign direct investment in critical raw materials and low-emission hydrogen pathways.
 </p>
 </div>
 
@@ -49,7 +57,7 @@ Economist from the University of Chile, holding a Minor in Macrofinance and Bank
 <span style="font-size: 0.9rem; color: var(--text-secondary); font-weight: 500;">September 2026</span>
 </div>
 <p style="margin: 0.25rem 0 0 0; color: var(--text-primary); font-size: 0.95rem;">
-<strong>Managing Mining, Oil and Gas for National Development</strong> (Executive Education)
+<strong>Managing Mining, Oil and Gas for National Development</strong> (Executive Programme)
 </p>
 <p style="margin: 0.35rem 0 0 0; color: var(--text-secondary); font-size: 0.88rem; line-height: 1.5;">
 In-person program in Oxford, UK &bull; Awarded full scholarship by the Natural Resource Governance Institute (NRGI)
@@ -67,7 +75,6 @@ In-person program in Oxford, UK &bull; Awarded full scholarship by the Natural R
 <div style="flex-grow: 1;">
 <h4 style="margin: 0 0 0.8rem 0; font-size: 1.05rem;">School of Economics and Business (FEN), University of Chile</h4>
 
-<!-- Master -->
 <div style="margin-bottom: 1rem;">
 <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 0.5rem;">
 <p style="margin: 0; font-size: 0.95rem; color: var(--text-primary);">
@@ -77,7 +84,6 @@ In-person program in Oxford, UK &bull; Awarded full scholarship by the Natural R
 </div>
 </div>
 
-<!-- Bachelor -->
 <div>
 <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 0.5rem;">
 <p style="margin: 0; font-size: 0.95rem; color: var(--text-primary);">
@@ -100,38 +106,54 @@ Minor in Macrofinance and Banking
 
 <!-- Experience -->
 <div class="section-card" style="margin-top: var(--space-4);">
-<h3 style="margin-top: 0; margin-bottom: 1.2rem;">Experience</h3>
+<h3 style="margin-top: 0; margin-bottom: 1.5rem;">Experience</h3>
 
 <div style="margin-bottom: 1.3rem;">
 <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 0.5rem;">
-<strong style="font-size: 1rem; color: var(--text-primary);">Economic Researcher &bull; Espacio Público</strong>
-<span style="font-size: 0.88rem; color: var(--text-secondary); font-weight: 500;">January 2026 &ndash; Present</span>
+<h4 style="margin: 0; font-size: 1rem; color: var(--text-primary);">Economic Researcher &bull; Espacio Público</h4>
+<span style="font-size: 0.9rem; color: var(--text-secondary); font-weight: 500;">January 2026 &ndash; Present</span>
 </div>
-<span style="font-size: 0.88rem; color: var(--text-secondary);">Sustainability & Economic Growth</span>
-</div>
-
-<div style="margin-bottom: 1.3rem;">
-<div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 0.5rem;">
-<strong style="font-size: 1rem; color: var(--text-primary);">Economic Research Assistant &bull; Fondecyt Project No. 1241625</strong>
-<span style="font-size: 0.88rem; color: var(--text-secondary); font-weight: 500;">December 2024 &ndash; Present</span>
-</div>
-<span style="font-size: 0.88rem; color: var(--text-secondary);">"Representation, Quotas, and Violence Against Female Politicians" (Lead: Francisco Pino, Co-lead: Eleonora Guarnieri)</span>
+<p style="margin: 0.25rem 0 0 0; font-size: 0.88rem; color: var(--text-secondary);">Sustainability & Economic Growth area</p>
 </div>
 
 <div style="margin-bottom: 1.3rem;">
 <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 0.5rem;">
-<strong style="font-size: 1rem; color: var(--text-primary);">Economic Consultant & Intern &bull; United Nations ECLAC</strong>
-<span style="font-size: 0.88rem; color: var(--text-secondary); font-weight: 500;">June 2024 &ndash; January 2026</span>
+<h4 style="margin: 0; font-size: 1rem; color: var(--text-primary);">Economic Research Assistant &bull; Fondecyt Project No. 1241625</h4>
+<span style="font-size: 0.9rem; color: var(--text-secondary); font-weight: 500;">December 2024 &ndash; Present</span>
 </div>
-<span style="font-size: 0.88rem; color: var(--text-secondary);">Natural Resources Division (Energy Unit & Non-Renewable Resources Unit)</span>
+<p style="margin: 0.25rem 0 0 0; font-size: 0.88rem; color: var(--text-secondary);">
+"Representation, Quotas, and Violence Against Female Politicians" &bull; Lead Researcher: Francisco Pino (FEN, U. de Chile), Co-researcher: Eleonora Guarnieri (Univ. of Bristol)
+</p>
+</div>
+
+<div style="margin-bottom: 1.3rem;">
+<div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 0.5rem;">
+<h4 style="margin: 0; font-size: 1rem; color: var(--text-primary);">Economic Consultant &bull; United Nations ECLAC</h4>
+<span style="font-size: 0.9rem; color: var(--text-secondary); font-weight: 500;">January 2025 &ndash; January 2026</span>
+</div>
+<p style="margin: 0.25rem 0 0 0; font-size: 0.88rem; color: var(--text-secondary);">
+Natural Resources Division (Energy Unit & Non-Renewable Resources Unit)
+</p>
+</div>
+
+<div style="margin-bottom: 1.3rem;">
+<div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 0.5rem;">
+<h4 style="margin: 0; font-size: 1rem; color: var(--text-primary);">Economic Affairs Intern &bull; United Nations ECLAC</h4>
+<span style="font-size: 0.9rem; color: var(--text-secondary); font-weight: 500;">June &ndash; November 2024</span>
+</div>
+<p style="margin: 0.25rem 0 0 0; font-size: 0.88rem; color: var(--text-secondary);">
+Natural Resources Division
+</p>
 </div>
 
 <div>
 <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 0.5rem;">
-<strong style="font-size: 1rem; color: var(--text-primary);">Finance Intern &bull; Itaú Bank</strong>
-<span style="font-size: 0.88rem; color: var(--text-secondary); font-weight: 500;">January &ndash; February 2024</span>
+<h4 style="margin: 0; font-size: 1rem; color: var(--text-primary);">Finance Intern &bull; Itaú Bank</h4>
+<span style="font-size: 0.9rem; color: var(--text-secondary); font-weight: 500;">January &ndash; February 2024</span>
 </div>
-<span style="font-size: 0.88rem; color: var(--text-secondary);">Financial Planning and Analysis & Capital Management</span>
+<p style="margin: 0.25rem 0 0 0; font-size: 0.88rem; color: var(--text-secondary);">
+Financial Planning and Analysis & Capital Management
+</p>
 </div>
 </div>
 
