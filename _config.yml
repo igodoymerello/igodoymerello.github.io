@@ -58,7 +58,7 @@ nav_pages:
     label: "Press & Writing"
   - name: "talks"
     label: "Talks & Fieldwork"
-  - name: "CV"
+  - name: "cv"
     label: "CV"
 #  - name: software
 #  - name: team
