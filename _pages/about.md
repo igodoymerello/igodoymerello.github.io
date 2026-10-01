@@ -16,7 +16,7 @@ permalink: /about/
 Economic Researcher &bull; Espacio Público
 </p>
 <p style="font-size: 0.88rem; color: var(--text-secondary); margin: 0 0 1rem 0; line-height: 1.4;">
-Applied Economics &bull; Econometrics &bull; Mineral Economics &bull; Natural Resources &bull; Energy Transition &bull; Mining Value Chains
+Applied Economics &bull; Econometrics &bull; Mineral Economics &bull; Natural Resources &bull; Energy Transition
 </p>
 <div class="pi-links">
 {% if site.email %}<a href="mailto:{{ site.email }}" class="icon-link" title="Email" aria-label="Email">{% include icon.html name="envelope" %}</a>{% endif %}
