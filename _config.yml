@@ -48,10 +48,15 @@ analytics:
 # Each name is a page in _pages/. Add `label: Papers` to change the
 # navbar text without changing the URL.
 nav_pages:
-  - name: about
-  - name: publications
+  - name: "about"
+    label: "About"
+  - name: "publications"
+    label: "Publications"
 #  - name: talks
-  - name: research
+  - name: "research"
+    label: "Research"
+  - name: "media"
+    label: "Press & Writing"
 #  - name: software
 #  - name: team
 #  - name: teaching
@@ -64,7 +69,8 @@ nav_pages:
 # appears in the rendered list ("Last, F. M."); list the longest form first.
 scholar:
   last_name: Godoy Merello
-  first_name: ["R. P.", "R."]
+#  first_name: ["R. P.", "R."]
+  first_name: ["I."]
   style: citesty
   locale: en
   source: /assets/
