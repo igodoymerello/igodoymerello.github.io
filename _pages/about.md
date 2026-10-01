@@ -19,6 +19,7 @@ permalink: /about/
 {% if site.links.github and site.links.github != "" %}<a href="{{ site.links.github }}" class="icon-link" title="GitHub" aria-label="GitHub" target="_blank" rel="noopener noreferrer">{% include icon.html name="github" %}</a>{% endif %}
 {% if site.links.researchgate and site.links.researchgate != "" %}<a href="{{ site.links.researchgate }}" class="icon-link" title="ResearchGate" aria-label="ResearchGate" target="_blank" rel="noopener noreferrer">{% include icon.html name="researchgate" %}</a>{% endif %}
 {% if site.links.linkedin and site.links.linkedin != "" %}<a href="{{ site.links.linkedin }}" class="icon-link" title="LinkedIn" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">{% include icon.html name="linkedin" %}</a>{% endif %}
+{% if site.links.substack and site.links.substack != "" %}<a href="{{ site.links.substack }}" class="icon-link" title="Substack" aria-label="Substack" target="_blank" rel="noopener noreferrer">{% include icon.html name="substack" %}</a>{% endif %}
 </div>
 {% if site.data.pi[0].education %}
 <ul style="margin-top: var(--space-4);">
