@@ -53,10 +53,13 @@ nav_pages:
   - name: "publications"
     label: "Publications"
 #  - name: talks
-  - name: "research"
-    label: "Research"
+#  - name: "research"
   - name: "media"
     label: "Press & Writing"
+  - name: "talks"
+    label: "Talks & Fieldwork"
+  - name: "CV"
+    label: "CV"
 #  - name: software
 #  - name: team
 #  - name: teaching
