@@ -62,23 +62,6 @@ Economist from the University of Chile, holding a Minor in Macrofinance and Bank
 </div>
 </div>
 
-<hr style="border: 0; border-top: 1px solid var(--border-color); margin: 1rem 0;">
-
-<div style="display: flex; align-items: flex-start; gap: 1.2rem;">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Escudo_de_la_Universidad_de_Chile.svg/800px-Escudo_de_la_Universidad_de_Chile.svg.png" alt="Universidad de Chile" style="width: 44px; height: auto; object-fit: contain; margin-top: 3px;">
-<div>
-<h4 style="margin: 0; font-size: 1.05rem;">School of Economics and Business (FEN), University of Chile</h4>
-<p style="margin: 0.2rem 0 0 0; color: var(--text-secondary); font-size: 0.95rem;">
-<strong>Master of Science (M.Sc.) in Applied Economics</strong> &bull; 2024 &ndash; 2026
-</p>
-<p style="margin: 0.4rem 0 0 0; color: var(--text-secondary); font-size: 0.95rem;">
-<strong>Bachelor of Science (B.Sc.) in Economics</strong> &bull; 2020 &ndash; 2024<br>
-<span style="font-size: 0.9rem; color: var(--text-secondary);">&bull; Minor in Macrofinance and Banking</span>
-</p>
-</div>
-</div>
-</div>
-
 <div class="section-card" style="margin-top: var(--space-4);">
 <h3 style="margin-top: 0;">Experience</h3>
 <ul style="list-style: none; padding-left: 0; margin: 1rem 0 0 0;">
