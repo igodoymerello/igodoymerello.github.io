@@ -36,12 +36,29 @@ Economist from the University of Chile, holding a Minor in Macrofinance and Bank
 <h3 style="margin-top: 0;">Education & Executive Training</h3>
 
 <div style="display: flex; align-items: flex-start; gap: 1.2rem; margin-top: 1.2rem;">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/University_of_Oxford.svg/800px-University_of_Oxford.svg.png" alt="University of Oxford" style="width: 44px; height: auto; object-fit: contain; margin-top: 3px;">
+<img src="{{ '/images/oxford-logo-DzIWfeXH.svg' | relative_url }}" alt="University of Oxford" style="width: 44px; height: auto; object-fit: contain; margin-top: 3px;">
 <div>
 <h4 style="margin: 0; font-size: 1.05rem;">Blavatnik School of Government, University of Oxford</h4>
 <p style="margin: 0.2rem 0 0 0; color: var(--text-secondary); font-size: 0.95rem;">
 <strong>Executive Education: Managing Mining, Oil and Gas for National Development</strong> &bull; September, 2026
 </p>
+</div>
+</div>
+
+<hr style="border: 0; border-top: 1px solid var(--border-color); margin: 1rem 0;">
+
+<div style="display: flex; align-items: flex-start; gap: 1.2rem;">
+<img src="{{ '/images/escudo-uchile-vertical-color-fondo-transp.png' | relative_url }}" alt="Universidad de Chile" style="width: 44px; height: auto; object-fit: contain; margin-top: 3px;">
+<div>
+<h4 style="margin: 0; font-size: 1.05rem;">School of Economics and Business (FEN), University of Chile</h4>
+<p style="margin: 0.2rem 0 0 0; color: var(--text-secondary); font-size: 0.95rem;">
+<strong>Master of Science (M.Sc.) in Applied Economics</strong> &bull; 2024 &ndash; 2026
+</p>
+<p style="margin: 0.4rem 0 0 0; color: var(--text-secondary); font-size: 0.95rem;">
+<strong>Bachelor of Science (B.Sc.) in Economics</strong> &bull; 2020 &ndash; 2024<br>
+<span style="font-size: 0.9rem; color: var(--text-secondary);">&bull; Minor in Macrofinance and Banking</span>
+</p>
+</div>
 </div>
 </div>
 
