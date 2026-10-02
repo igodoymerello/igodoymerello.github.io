@@ -15,7 +15,7 @@ Last updated: <strong>{{ site.time | date: "%B %Y" }}</strong>
 </div>
 
 <p style="color: var(--text-primary); margin-bottom: 1.5rem; line-height: 1.6;">
-Select the preferred language version of my Curriculum Vitae below. The files contain detailed information on academic credentials, publications, policy papers, quantitative research experience, and technical competencies.
+Select the preferred language version of my Curriculum Vitae below.
 </p>
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem;">
